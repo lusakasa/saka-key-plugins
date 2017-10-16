@@ -1,0 +1,44 @@
+{
+  "name": "Pocket",
+  "version": "0.1",
+  "description": "Integration with Pocket (https://getpocket.com)",
+  "browsers": "all",
+  "author": "Sufyan",
+  "license": "MIT",
+  "homepage": "https://github.com/lusakasa/saka-key-plugins",
+  "updateUrl": "https://raw.githubusercontent.com/lusakasa/saka-key-plugins/master/Pocket.js",
+  "options": [
+    {
+      "key": "blacklist",
+      "type": "textarea"
+    }
+  ],
+  "scripts": [
+    {
+      "key": "",
+      "button": true,
+      "function": "()=>{}"
+    }
+  ],
+  "execute": [
+    {
+      "key": "preparePage",
+      "label": "",
+      "urls": "<all_urls>",
+      "frames": "all",
+      "function": "()=>{}"
+    }
+  ],
+  "commands": [
+    {
+      "key": "savePageToPocket",
+      "label": "Save Current Page to Pocket",
+      "function": "()=>{}"
+    },
+    {
+      "key": "saveLinkToPocket",
+      "label": "Save Link to Pocket",
+      "function": "()=>{}"
+    }
+  ]
+}
